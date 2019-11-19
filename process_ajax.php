@@ -1,5 +1,12 @@
 <?php
 	include 'db.php';
+
+
+	//print_r($_REQUEST);
+	//exit();
+
+
+
 	if(isset($_REQUEST['submit_form'])){
 		
 			$username = mysqli_real_escape_string($conn, strip_tags($_REQUEST['name']));

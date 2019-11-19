@@ -1,8 +1,12 @@
 <?PHP
     $server = 'localhost';
-    $username = 'ajax';
-    $password = 'Dupa1234';
-    $db = 'ajax';
+    $username = 'root';
+    $password = '';
+    $db = 'kuba';
 
     $conn = mysqli_connect($server, $username, $password, $db);
+
+
+//kuba zmien credentials
+
 ?>
